@@ -1,0 +1,50 @@
+.social-container {
+    background: rgb(255, 255, 255);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: right;
+  }
+  .social-container-icon {
+    background: rgb(255, 255, 255);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }
+  .button{
+  background-color: gold;
+    flex-shrink: 45px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+  }
+  .wrapper{
+    text-align: center;
+   
+  }
